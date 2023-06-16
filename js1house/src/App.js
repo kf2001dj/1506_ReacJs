@@ -74,18 +74,32 @@ import React from 'react';
 /**
  * REnder
  */
-import RenderCode from './components/Render';
-function App(props){
+// import RenderCode from './components/Render';
+// function App(props){
 
-        return(
-          <div>
-            <RenderCode></RenderCode>
-          </div>
+//         return(
+//           <div>
+//             <RenderCode></RenderCode>
+//           </div>
       
-        )
-  }
+//         )
+//   }
+
+/**
+ * Refs
+ */
+import RefsCode from './components/Refs';
+function App (){
+  return(
+    <div>
+        <RefsCode></RefsCode>
 
 
+    </div>
+
+  )
+
+}
 
   
 
